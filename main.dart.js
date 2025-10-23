@@ -65271,22 +65271,27 @@ s.aM()}}
 A.mI.prototype={
 ac(){return new A.KY()}}
 A.KY.prototype={
-O(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.ci(a,i,t.w).w.a.a,g=t.W,f=A.c([A.o(4294173136),A.o(4293317571)],g)
-if(h<600)s=100
-else if(h<800)s=150
-else s=h<1000?200:250
-r=A.lR(255,255,255,0.4)
-q=A.lR(62,31,31,0.15)
-p=A.bB(32)
-o=A.lR(255,255,255,0.2)
-n=A.b7("I'am Saurabh",i,i,A.aQ(i,i,i,i,i,i,i,i,i,i,i,h*0.05,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i)
-m=h*0.02
-l=A.aQ(i,i,A.o(4284304701),i,i,i,i,i,i,i,i,m,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
-l=A.ah3(A.c([A.akz("A Flutter Developer and a Competitive Programmer","|",B.B,A.ba(0,50,0),l)],t.u6),!1,!0)
-k=A.bl(i,50,i)
-g=A.c([A.o(4282199323),A.o(4287460188)],g)
-j=A.bB(16)
-return A.aeW(A.co(i,new A.bk(new A.aT(s,50,s,50),A.dG(B.G,!0,A.Bq(A.c0(A.c([n,l,k,A.hY(i,A.co(i,new A.bk(B.zK,A.b7("Lets Begin",i,i,A.aQ(i,i,A.o(4292728011),i,i,i,i,i,i,i,i,m,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i),i),B.p,i,i,new A.bT(i,i,i,j,i,new A.cj(B.cC,B.cB,B.O,g,i,i),B.L),i,i,i,i,i,i,i),B.ag,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.a9w(a),i,i,i)],t.p),B.r,i,B.b2,0),i,i),B.p,r,8,i,q,new A.bE(p,new A.b2(o,1,B.x,-1)),i,i,B.a3),i),B.p,i,i,new A.bT(i,i,i,i,i,new A.cj(B.cC,B.cB,B.O,f,i,i),B.L),i,i,i,i,i,i,i),i)}}
+O(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=A.ci(a,g,t.w).w.a.a,e=f<500
+if(e)s=30
+else if(f<700)s=60
+else{r=f<1000?120:200
+s=r}if(e)q=28
+else q=f<700?36:42
+if(e)p=14
+else p=f<700?16:18
+e=t.W
+r=A.c([A.o(4294173136),A.o(4293317571)],e)
+o=A.lR(255,255,255,0.4)
+n=A.lR(62,31,31,0.15)
+m=A.bB(32)
+l=A.lR(255,255,255,0.2)
+k=A.b7("I'am Saurabh",g,g,A.aQ(g,g,g,g,g,g,g,g,g,g,g,q,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g)
+j=A.aQ(g,g,A.o(4284304701),g,g,g,g,g,g,g,g,p,g,g,g,g,g,!0,g,g,g,g,g,g,g,g)
+j=A.ah3(A.c([A.akz("A Flutter Developer and a Competitive Programmer","|",B.B,A.ba(0,50,0),j)],t.u6),!1,!0)
+i=A.bl(g,50,g)
+e=A.c([A.o(4282199323),A.o(4287460188)],e)
+h=A.bB(16)
+return A.aeW(A.co(g,new A.bk(new A.aT(s,50,s,50),A.dG(B.G,!0,A.Bq(A.c0(A.c([k,j,i,A.hY(g,A.co(g,new A.bk(B.zK,A.b7("Lets Begin",g,g,A.aQ(g,g,A.o(4292728011),g,g,g,g,g,g,g,g,f*0.02,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g),g),B.p,g,g,new A.bT(g,g,g,h,g,new A.cj(B.cC,B.cB,B.O,e,g,g),B.L),g,g,g,g,g,g,g),B.ag,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,g,new A.a9w(a),g,g,g)],t.p),B.r,g,B.b2,0),g,g),B.p,o,8,g,n,new A.bE(m,new A.b2(l,1,B.x,-1)),g,g,B.a3),g),B.p,g,g,new A.bT(g,g,g,g,g,new A.cj(B.cC,B.cB,B.O,r,g,g),B.L),g,g,g,g,g,g,g),g)}}
 A.a9w.prototype={
 $0(){A.ajh(this.a,A.aj0(new A.a9v(),null,t.z))},
 $S:0}
@@ -65376,7 +65381,7 @@ s=A.lR(255,255,255,0.8)
 r=A.lR(0,0,0,0.5)
 q=A.adJ(A.o(4282199323),1)
 p=t.p
-o=A.c([A.bl(k,50,k),new A.eL("HOME",l.w,k),new A.eL("ABOUT ME",l.f,k),new A.eL("SKILLS",l.r,k),new A.eL("PROJECTS",l.e,k),new A.eL("CONTACT",l.x,k),A.bl(k,10,k),A.b7(u.h,k,k,A.aQ(k,k,A.o(4284305215),k,k,k,k,k,k,k,k,10,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.aA),A.bl(k,10,k),A.cW(A.c([A.wI(A.b7("GitHub",k,k,A.aQ(k,k,k,k,k,k,k,k,k,k,k,12,k,k,B.l,k,k,!0,k,k,k,k,k,k,k,k),k),new A.a93()),A.wI(A.b7("LinkedIn",k,k,A.aQ(k,k,k,k,k,k,k,k,k,k,k,12,k,k,B.l,k,k,!0,k,k,k,k,k,k,k,k),k),new A.a94()),A.wI(A.b7("E-Mail",k,k,A.aQ(k,k,k,k,k,k,k,k,k,k,k,12,k,k,B.l,k,k,!0,k,k,k,k,k,k,k,k),k),new A.a95())],p),B.r,B.b2,15)],p)
+o=A.c([A.bl(k,50,k),new A.eL("Home",l.w,k),new A.eL("About",l.f,k),new A.eL("Skills",l.r,k),new A.eL("Projects",l.e,k),new A.eL("Contact",l.x,k),A.bl(k,10,k),A.b7(u.h,k,k,A.aQ(k,k,A.o(4284305215),k,k,k,k,k,k,k,k,10,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.aA),A.bl(k,10,k),A.cW(A.c([A.wI(A.b7("GitHub",k,k,A.aQ(k,k,k,k,k,k,k,k,k,k,k,12,k,k,B.l,k,k,!0,k,k,k,k,k,k,k,k),k),new A.a93()),A.wI(A.b7("LinkedIn",k,k,A.aQ(k,k,k,k,k,k,k,k,k,k,k,12,k,k,B.l,k,k,!0,k,k,k,k,k,k,k,k),k),new A.a94()),A.wI(A.b7("E-Mail",k,k,A.aQ(k,k,k,k,k,k,k,k,k,k,k,12,k,k,B.l,k,k,!0,k,k,k,k,k,k,k,k),k),new A.a95())],p),B.r,B.b2,15)],p)
 n=A.aM([null,0],t.LO,t.S)
 j=A.ak9(A.aiO(new A.a96(l,j.a.b)),l.d,k,B.c7)
 m=A.adJ(A.o(4287460188),1)
@@ -65480,7 +65485,7 @@ q=A.co(B.W,A.b7("S",r,r,A.aQ(r,r,A.o(4292728011),r,r,r,r,r,r,r,r,20,r,r,B.ao,r,r
 p=this.b
 if(p>700){p*=0.004
 s=this.a
-p=A.a4I(B.fa,A.c([new A.eL("HOME",s.w,r),new A.eL("ABOUT ME",s.f,r),new A.eL("SKILLS",s.r,r),new A.eL("PROJECTS",s.e,r),new A.eL("CONTACT",s.x,r)],t.p),B.vY,B.aX,p,p)}else p=A.arM(r,A.f8(B.Ae,r,r,40),r,r,new A.a91(a),r,r)
+p=A.a4I(B.fa,A.c([new A.eL("Home",s.w,r),new A.eL("About",s.f,r),new A.eL("Skills",s.r,r),new A.eL("Projects",s.e,r),new A.eL("Contact",s.x,r)],t.p),B.vY,B.aX,p,p)}else p=A.arM(r,A.f8(B.Ae,r,r,40),r,r,new A.a91(a),r,r)
 return A.cW(A.c([q,p],t.p),B.r,B.pR,0)},
 $S:417}
 A.a91.prototype={
